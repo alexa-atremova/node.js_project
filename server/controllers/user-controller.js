@@ -21,7 +21,7 @@ class UserController {
   }
   async getUsers(req, res, next) {
     try {
-      res.json(["123"], ["345"]);
+      res.json(["123", "345"]);
     } catch (e) {}
   }
 }
